@@ -4,6 +4,7 @@ import BlogDetails from './BlogDetails'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Create from './Create';
 import NotFound from './NotFound';
+import ReduxCounter from './ReduxCounter';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
             </Route>
             <Route exact path="/blogs/:id">
               <BlogDetails />
+            </Route>
+            <Route exact path="/redux">
+              <ReduxCounter />
             </Route>
             <Route path="/*">
               <NotFound />

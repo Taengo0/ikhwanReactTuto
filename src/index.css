@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 
 /* base styles */
 * {
@@ -40,7 +40,7 @@
   border-bottom: 1px solid #fafafa;
 }
 .blog-preview:hover {
-  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
 .blog-preview h2 {
   font-size: 20px;
@@ -50,8 +50,7 @@
 .blog-preview a {
   text-decoration: none;
 }
-* create new blog form */
-.create {
+* create new blog form */ .create {
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
@@ -65,7 +64,9 @@
   color: #f1356d;
   margin-bottom: 30px;
 }
-.create input, .create textarea, .create select {
+.create input,
+.create textarea,
+.create select {
   width: 100%;
   padding: 6px 10px;
   margin: 10px 0;
@@ -88,4 +89,26 @@
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+}
+.redux-counter {
+  text-align: center;
+}
+.redux-counter button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.redux-counter button:disabled {
+  background: #6e6b6b;
+  color: #fff;
+}
+.redux-counter button:first-of-type {
+  margin-right: 20px;
+}
+.redux-counter .count {
+  font-size: 9em;
+  font-weight: 900;
 }

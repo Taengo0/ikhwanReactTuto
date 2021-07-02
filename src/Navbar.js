@@ -7,6 +7,7 @@ const Navbar = () => {
             <div className="content">
                 <Link to="/">Home</Link>
                 <Link to="/create">New Blog</Link>
+                <Link to="/redux">Redux Counter</Link>
             </div>
         </nav>
      );
